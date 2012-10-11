@@ -1,0 +1,21 @@
+ozkouset:
+
+
+planovano:
+-lezeni po budovach
+-staveni na moveru
+XXX LECI OKAMZITE a ne samo - leceni ckitem
+XXX chat buble
+-unnamed nemuze bourat
+
+ozkouseno:
+- obarveny vote set next map
+- obarvene hlasky joinu
+- turret trva 15 sec misto 10
+- g_alienGrangerDanceBonus pri vyskoku
+- unnamed nemuze stavet
+- dretch bite budovy
+- zmenseny traily
+- revert a lock hlasi neskryteho admina
+- egg/node down
+- vote verejny
