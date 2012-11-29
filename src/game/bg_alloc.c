@@ -25,9 +25,9 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 #include "bg_public.h"
 
 #ifdef GAME
-# define  POOLSIZE ( 1024 * 1024 )
+# define  POOLSIZE ( (1024 * 1024) * 2 )//ROTAXfun
 #else
-# define  POOLSIZE ( 256 * 1024 )
+# define  POOLSIZE ( (256 * 1024) * 2 )//ROTAXfun
 #endif
 
 #define  FREEMEMCOOKIE  ((int)0xDEADBE3F)  // Any unlikely to be used value

@@ -2014,10 +2014,8 @@ static void PM_GroundClimbTrace( void )
     //if( trace.fraction < 1.0f && !( trace.surfaceFlags & ( SURF_SKY | SURF_SLICK ) ) && 
     //    !( trace.entityNum != ENTITYNUM_WORLD && i != 4 ) )
     
-    //fun if( trace.fraction < 1.0f && !( trace.surfaceFlags & ( SURF_SKY | SURF_SLICK ) ) && ( trace.entityNum >= MAX_CLIENTS && i != 4) )
-    if( trace.fraction < 1.0f && !( trace.surfaceFlags & ( SURF_SKY | SURF_SLICK ) ) && 
-        !( trace.entityNum != ENTITYNUM_WORLD && i != 4 ) )    
-    {
+    if( trace.fraction < 1.0f && !( trace.surfaceFlags & ( SURF_SKY | SURF_SLICK ) ) && ( trace.entityNum >= MAX_CLIENTS && i != 4) )//ROTAXfun
+    {//if( trace.fraction < 1.0f && !( trace.surfaceFlags & ( SURF_SKY | SURF_SLICK ) ) && !( trace.entityNum != ENTITYNUM_WORLD && i != 4 ) )  
       if( i == 2 || i == 3 )
       {
         if( i == 2 )
