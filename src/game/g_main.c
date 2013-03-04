@@ -1173,7 +1173,7 @@ void G_CalculateBuildPoints( void )
   if( G_TimeTilSuddenDeath( ) <= 0 && level.suddenDeathWarning < TW_PASSED )
   {
     G_LogPrintf( "Beginning Sudden Death\n" );
-    trap_SendServerCommand( -1, "cp \"Sudden Death!\nTremulous 2: www.tremulous2.com\"" );
+    trap_SendServerCommand( -1, "cp \"Sudden Death!\"" );
     trap_SendServerCommand( -1, "print \"Beginning Sudden Death.\n\"" );
     level.suddenDeathWarning = TW_PASSED;
     G_ClearDeconMarks( );
