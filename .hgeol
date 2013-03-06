@@ -1,0 +1,8 @@
+[repository]
+native = CRLF
+
+[patterns]
+src/game/** = native
+src/cgame/** = native
+src/ui/** = native
+src/** = BIN
