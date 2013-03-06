@@ -990,6 +990,7 @@ void      G_UnregisterCommands( void );
 void FireWeapon( gentity_t *ent );
 void FireWeapon2( gentity_t *ent );
 void FireWeapon3( gentity_t *ent );
+gentity_t *G_MedkitTarget( gentity_t *ent );
 
 //
 // g_main.c
@@ -1127,6 +1128,8 @@ extern  vmCvar_t  pmove_msec;
 extern  vmCvar_t  g_alienBuildPoints;
 extern  vmCvar_t  g_alienBuildQueueTime;
 extern  vmCvar_t  g_humanBuildPoints;
+extern  vmCvar_t  g_humanMedkitRange;
+extern  vmCvar_t  g_humanMedkitWidth;
 extern  vmCvar_t  g_humanBuildQueueTime;
 extern  vmCvar_t  g_humanDefenceComputerLimit;
 extern  vmCvar_t  g_humanDefenceComputerRate;

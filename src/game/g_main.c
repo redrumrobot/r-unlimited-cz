@@ -86,6 +86,8 @@ vmCvar_t  g_maxNameChanges;
 vmCvar_t  g_alienBuildPoints;
 vmCvar_t  g_alienBuildQueueTime;
 vmCvar_t  g_humanBuildPoints;
+vmCvar_t  g_humanMedkitRange;
+vmCvar_t  g_humanMedkitWidth;
 vmCvar_t  g_humanBuildQueueTime;
 vmCvar_t  g_humanDefenceComputerLimit;
 vmCvar_t  g_humanDefenceComputerRate;
@@ -217,6 +219,8 @@ static cvarTable_t   gameCvarTable[ ] =
   { &g_debugMove, "g_debugMove", "0", 0, 0, qfalse },
   { &g_debugDamage, "g_debugDamage", "0", 0, 0, qfalse },
   { &g_motd, "g_motd", "", 0, 0, qfalse },
+  { &g_humanMedkitRange, "g_humanMedkitRange", "200", CVAR_ARCHIVE, 0, qfalse },
+  { &g_humanMedkitWidth, "g_humanMedkitWidth", "20", CVAR_ARCHIVE, 0, qfalse },
 
   { &g_allowVote, "g_allowVote", "1", CVAR_ARCHIVE, 0, qfalse },
   { &g_voteLimit, "g_voteLimit", "5", CVAR_ARCHIVE, 0, qfalse },
