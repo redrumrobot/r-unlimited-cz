@@ -1,0 +1,6 @@
+[repository]
+native = LF
+
+[patterns]
+src/** = native
+assets/** = native
