@@ -1,15 +1,6 @@
 [repository]
-native = CRLF
+native = LF
 
 [patterns]
-src/cgame/cg_animation.c = BIN
-src/cgame/cg_tutorial.c = BIN
-src/game/bg_alloc.c = BIN
-src/game/bg_voice.c = BIN
-src/game/g_admin.c = BIN
-src/game/g_admin.h = BIN
-src/game/g_namelog.c = BIN
-src/game/** = native
-src/cgame/** = native
-src/ui/** = native
-src/** = BIN
+src/** = native
+assets/** = native
